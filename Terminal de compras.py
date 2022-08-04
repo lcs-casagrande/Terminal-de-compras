@@ -1,7 +1,8 @@
 from time import sleep
 compras = []
 valor = []
-cont= total = 0
+quantidade = []
+cont= total = val = quant = itotal = 0
 print('Bem-vindo ao mercado Casagrande')
 sleep(.5)
 while True:
@@ -10,13 +11,18 @@ while True:
         break
     compras.append(pro)
     sleep(.2)
-    val=float(input('Digite o valor do produto: '))
-    total +=val
-    valor.append(val)
+    quant=int(input('Quantos itens?'))
+    itotal += quant
+    quantidade.append((quant))
+    pre=float(input('Digite o valor do produto: '))
+    total +=(quant*pre)
+    valor.append(pre)
     sleep(.2)
 print('Lista da compra:')
 for c in compras:
-    print(f'item {c} valor R${valor[cont]:.2f}')
+    print(f'{c} {quantidade[cont]} R${valor[cont]:.2f}  ')
     cont+=1
     sleep(0.5)
+print(f'Itens totais {itotal}.')
 print(f'Valor total de R${total:.2f}.')
+
