@@ -29,3 +29,6 @@ pg=str(input('Qual a forma de pagamento:'
              'Dinheiro ou Pix:'
              'Cartão 1x:'
              'Cartão Parcelado:'))
+if 'pix' in pg:
+    total=total*0.9
+    print(f'pagamento pix total {total}.
