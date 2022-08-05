@@ -25,4 +25,7 @@ for c in compras:
     sleep(0.5)
 print(f'Itens totais {itotal}.')
 print(f'Valor total de R${total:.2f}.')
-
+pg=str(input('Qual a forma de pagamento:'
+             'Dinheiro ou Pix:'
+             'Cartão 1x:'
+             'Cartão Parcelado:'))
