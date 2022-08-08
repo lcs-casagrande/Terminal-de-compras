@@ -31,4 +31,6 @@ pg=str(input('Qual a forma de pagamento:'
              'Cartão Parcelado:'))
 if 'pix' in pg:
     total=total*0.9
-    print(f'pagamento pix total {total}.
+    print(f'pagamento pix total {total}.')
+elif 'cart' in pg:
+    print(f'pagamento cartãototal R${total}.')          
