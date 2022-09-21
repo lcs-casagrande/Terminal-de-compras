@@ -5,7 +5,7 @@ valor = []
 quantidade = []
 cont = total = val = quant = itotal = 0
 print('Bem-vindo ao mercado Casagrande')
-sleep(.3)
+sleep(.2)
 while True:
     pro = str(input('Digite o produto ou [fim] para encerrar:'))
     if 'fim' in pro:
