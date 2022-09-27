@@ -7,8 +7,8 @@ cont = total = val = quant = itotal = 0
 print('Bem-vindo ao mercado Casagrande')
 sleep(.2)
 while True:
-    pro = str(input('Digite o produto ou [fim] para encerrar:'))
-    if 'fim' in pro:
+    pro = str(input('Digite o produto ou [fim] para encerrar:')).upper
+    if 'FIM' in pro:
         break
     compras.append(pro)
     sleep(.2)
