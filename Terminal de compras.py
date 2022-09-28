@@ -11,7 +11,7 @@ while True:
     if 'FIM' in pro:
         break
     compras.append(pro)
-    sleep(.2)
+    sleep(.3)
     quant = float(input('Quantos itens?'))
     itotal += quant
     quantidade.append((quant))
