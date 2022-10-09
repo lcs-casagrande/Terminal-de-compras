@@ -18,7 +18,7 @@ while True:
     pre = float(input('Digite o valor do produto: '))
     total += (quant * pre)
     valor.append(pre)
-    sleep(.2)
+    sleep(.3)
 print('Lista da compra:')
 for c in compras:
     coptot=quantidade[cont]*valor[cont]
