@@ -36,7 +36,7 @@ while True:
         total = total * 0.9
         print(f'pagamento pix, com 10% de desconto, total R${total:.2f}.')
         break
-    elif 'DINHEIRO' in pg:
+    elif 'Dinheiro' in pg:
         total = total * 0.9
         print(f'pagamento dinheiro, com 10% de desconto, total R${total:.2f}.')
         break
