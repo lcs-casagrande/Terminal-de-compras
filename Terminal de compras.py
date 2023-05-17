@@ -29,7 +29,7 @@ print(f'Itens totais {itotal}.')
 print(f'Valor total de R${total:.2f}.')
 while True:
     pg = str(input('Qual a forma de pagamento:'
-                   'Dinheiro, Pix:'
+                   'Dinheiro, ou Pix:'
                    'Cartão :')).upper()
 
     if 'PIX' in pg:
