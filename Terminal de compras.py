@@ -8,7 +8,7 @@ print('Bem-vindo ao mercado Casagrande')
 sleep(.25)
 while True:
     pro = str(input('Digite o produto ou [fim] para encerrar:')).upper
-    if 'FIM' in pro:
+    if 'Fim! ' in pro:
         break
     compras.append(pro)
     sleep(.3)
