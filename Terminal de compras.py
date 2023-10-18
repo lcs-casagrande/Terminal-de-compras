@@ -24,7 +24,7 @@ for c in compras:
     coptot=quantidade[cont]*valor[cont]
     print(f'{quantidade[cont]} {c} de R${valor[cont]:.2f} total R${coptot:.2f} ')
     cont += 1
-    sleep(0.5)
+    sleep(0.9)
 print(f'Itens totais {itotal}.')
 print(f'Valor total de R${total:.2f}.')
 while True:
